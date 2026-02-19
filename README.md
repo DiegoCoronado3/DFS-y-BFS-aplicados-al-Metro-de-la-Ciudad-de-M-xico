@@ -1,20 +1,23 @@
 # DFS-y-BFS-aplicados-al-Metro-de-la-Ciudad-de-Mexico
 
-**Búsqueda en Grafos: BFS y DFS aplicados al Metro CDMX** **Materia:** Inteligencia Artificial  
+**Búsqueda en Grafos: BFS y DFS aplicados al Metro CDMX**
+
+
+**Materia:** Inteligencia Artificial  
 **Alumno:** Diego Coronado Pérez  
 **Grupo:** 10  
-**Universidad:** Facultad de Ingeniería, UNAM  
+**Universidad:** Facultad de Ingeniería, UNAM
 
 ---
 
-### 📂 Estructura de archivos:
+### Estructura de archivos:
 
 * `metro.py`: Contiene la clase `MetroCDMX` que modela la topología de las 12 líneas del metro mediante una lista de adyacencia (diccionarios).
 * `bfs_dfs.py`: Script principal que contiene la clase `AlgoritmosBusqueda` con la lógica de BFS/DFS y la interfaz de usuario por consola.
 
 ---
 
-## 🛠 Lenguaje y Versión
+## Lenguaje y Versión
 
 * **Lenguaje:** Python
 * **Versión:** Python 3.8 o superior.
@@ -22,16 +25,31 @@
 
 ---
 
-## 🚀 Cómo compilar y ejecutar
+## Cómo ejecutar el proyecto
+
+Puedes obtener y ejecutar el proyecto de dos formas: descargando los archivos directamente o usando Git.
+
+### Opción A: Descarga manual (Recomendada)
+Al ser un proyecto de solo dos archivos pequeños, esta es la forma más rápida:
+
+1. En la parte superior derecha de este repositorio, haz clic en el botón **"Code"**.
+2. Selecciona la opción **"Download ZIP"**.
+3. Extrae el archivo `.zip` en cualquier carpeta de tu computadora.
+4. Abre tu terminal o línea de comandos, navega hasta esa carpeta y ejecuta:
+```bash
+python bfs_dfs.py
+```
+
+### Opción B: Clonar con Git
 
 **1. Clona el repositorio:**
 ```bash
-
+git clone [https://github.com/DiegoCoronado3/DFS-y-BFS-aplicados-al-Metro-de-la-Ciudad-de-M-xico.git](https://github.com/DiegoCoronado3/DFS-y-BFS-aplicados-al-Metro-de-la-Ciudad-de-M-xico.git)
 ```
 
 **2. Entra al directorio del proyecto:**
 ```bash
-
+cd DFS-y-BFS-aplicados-al-Metro-de-la-Ciudad-de-M-xico
 ```
 
 **3. Ejecuta el archivo principal:**
@@ -41,7 +59,7 @@ python bfs_dfs.py
 
 ---
 
-## 🚇 Cómo correr los 3 casos obligatorios
+## Cómo correr los 3 casos obligatorios
 
 Para facilitar la revisión de la tarea, el programa incluye una opción automatizada que ejecuta los casos requeridos sin necesidad de teclear las estaciones.
 
